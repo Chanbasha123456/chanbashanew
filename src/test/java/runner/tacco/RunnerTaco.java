@@ -9,7 +9,8 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
 		
 		features="src/test/resources/Features/",
-		glue="tacobellappstep"
+		glue="tacobellappstep",
+		tags="smoke"
 		
 		)
 public class RunnerTaco {
